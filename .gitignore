@@ -1,0 +1,44 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Local databases and runtime data
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Log files
+logs/*.log
+*.log
+
+# Incident screenshots (keep directory via .gitkeep)
+assets/screenshots/*.jpg
+assets/screenshots/*.jpeg
+assets/screenshots/*.png
+!assets/screenshots/.gitkeep
+
+# Trained models (if large/generated, or keep directory via .gitkeep)
+models/*.joblib
+models/*.pkl
+!models/.gitkeep
+
+# Reports
+reports/*
+!reports/.gitkeep
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
